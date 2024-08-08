@@ -1,17 +1,23 @@
+// src/App.vue
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div id="app">
+    <nav>
+      <ul>
+        <li><router-link to="/">Dashboard</router-link></li>
+        <li><router-link to="/expenses">Expenses</router-link></li>
+        <li><router-link to="/income">Income</router-link></li>
+        <li><router-link to="/settings">Settings</router-link></li>
+      </ul>
+    </nav>
+    <router-view />
+  </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: "App",
 });
 </script>
 
@@ -23,5 +29,15 @@ export default defineComponent({
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
 }
 </style>

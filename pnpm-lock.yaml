@@ -15,8 +15,8 @@ dependencies:
     specifier: ^3.4.36
     version: 3.4.36(typescript@4.5.5)
   vue-router:
-    specifier: ^4.4.3
-    version: 4.4.3(vue@3.4.36)
+    specifier: ^4.0.13
+    version: 4.0.13(vue@3.4.36)
 
 devDependencies:
   '@babel/core':
@@ -9408,8 +9408,8 @@ packages:
       webpack: 5.93.0
     dev: true
 
-  /vue-router@4.4.3(vue@3.4.36):
-    resolution: {integrity: sha512-sv6wmNKx2j3aqJQDMxLFzs/u/mjA9Z5LCgy6BE0f7yFWMjrPLnS/sPNn8ARY/FXw6byV18EFutn5lTO6+UsV5A==}
+  /vue-router@4.0.13(vue@3.4.36):
+    resolution: {integrity: sha512-LmXrC+BkDRLak+d5xTMgUYraT3Nj0H/vCbP+7usGvIl9Viqd1UP6AsP0i69pSbn9O0dXK/xCdp4yPw21HqV9Jw==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
